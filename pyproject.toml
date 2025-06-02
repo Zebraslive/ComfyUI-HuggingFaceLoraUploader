@@ -1,5 +1,5 @@
 [project]
-name = "comfyui_hf_lora_uploader"
+name = "comfyui-huggingfacelorauploader"
 version = "0.1.0" 
 description = "A ComfyUI custom node to upload LoRA models to Hugging Face Hub."
 authors = [
