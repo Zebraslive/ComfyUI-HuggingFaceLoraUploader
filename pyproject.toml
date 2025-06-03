@@ -1,19 +1,21 @@
 [project]
-name = "comfyui_huggingfacelorauploader"
-version = "0.1.0" 
-description = "A ComfyUI custom node to upload LoRA models to Hugging Face Hub."
+name = "comfyui_lora_uploaders_pack" # 保持这个，它描述了包的内容
+version = "0.2.0" # 确保与你的实际版本一致
+description = "A ComfyUI custom node pack to upload LoRA models to Hugging Face Hub and ModelScope."
 authors = [
-    { name = "violet0927", email = "violet0927@gmail.com" }, 
+    { name = "violet0927", email = "violet0927@gmail.com" },
 ]
-license = { text = "MIT License" } 
-readme = "README.md" 
+license = { text = "MIT License" } # 或者你选择的其他许可证
+readme = "README.md"
 requires-python = ">=3.8" 
 dependencies = [
-    "huggingface_hub" 
+    "huggingface_hub",
+    "modelscope"
 ]
-classifiers = [ 
-    "Development Status :: 4 - Beta", 
+classifiers = [
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
+    "Intended Audience :: Other Audience",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
@@ -22,9 +24,10 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Multimedia :: Graphics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 
 [project.urls]
 Homepage = "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader" 
-Repository = "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader" 
-# Issues = "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader/issues" 
+Repository = "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader"
+# Issues = "https://github.com/violet0927/ComfyUI-HuggingFaceLoraUploader/issues"
